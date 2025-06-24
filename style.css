@@ -41,7 +41,12 @@
     text-decoration: none;
     font-weight: 500;
   }
-
+.nav-links a:hover{
+  
+      color: black;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      cursor: pointer;
+}
   .nav-actions {
     display: flex;
     gap: 15px;
@@ -54,6 +59,12 @@
     font-weight: 600;
     color: white;
     border: 1px solid transparent;
+  }
+  .btn:hover{
+
+      color: black;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      cursor: pointer;
   }
 
   .btn.primary {
@@ -218,6 +229,12 @@
     color: #3EB3C2;
     text-decoration: none;
     font-weight: 600;
+  }
+  .learn-link:hover{
+     /* slightly darker teal */
+      color: black;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      cursor: pointer;
   }
 
   /* Companies Section */
