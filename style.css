@@ -59,7 +59,12 @@
   .btn.primary {
     background-color: #3EB3C2;
   }
-
+.btn.primary:hover{
+    background-color: white; /* slightly darker teal */
+  color: #3EB3C2;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
   /* Hero Section */
   #hero {
     padding: 80px 0;
@@ -108,13 +113,23 @@
     font-weight: 600;
     text-decoration: none;
   }
-
+  .cta:hover{
+      background-color: white; /* slightly darker teal */
+      color: #3EB3C2;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      cursor: pointer;
+  }
   .cta.outline {
     background-color: transparent;
     border: 2px solid #3EB3C2;
     color: #3EB3C2;
   }
-
+.cta.outline:hover{
+  background-color: white; /* slightly darker teal */
+      color: black;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      cursor: pointer;
+}
   /* Hero Image Section */
   .hero-visuals {
     flex: 1;
@@ -329,7 +344,12 @@
     cursor: pointer;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   }
-
+.icons button:hover{
+      background-color: black; /* slightly darker teal */
+      color: white;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      cursor: pointer;
+}
   .card-content {
     padding: 20px;
     flex-grow: 1;
