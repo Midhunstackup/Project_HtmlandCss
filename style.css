@@ -561,6 +561,12 @@
   font: size 0.95rem;;
   margin-bottom: 20px;
 }
+.pricing-card:hover{
+  background-color: #26335D; /* slightly darker teal */
+      color: white;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      cursor: pointer;
+}
 .pricing-btn:hover{
    background-color: green; /* slightly darker teal */
   color: black;
