@@ -1,0 +1,98 @@
+/* Your existing CSS above this line */
+
+/* ============================ */
+/*       RESPONSIVE RULES      */
+/* ============================ */
+
+@media (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links, .nav-actions {
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text, .hero-visuals {
+    max-width: 100%;
+  }
+
+  .department-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .department-left, .department-right {
+    max-width: 100%;
+  }
+
+  .cards, .testimonial-cards, .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card, .testimonial-card, .pricing-card {
+    max-width: 90%;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form input[type="email"] {
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  .newsletter-form button {
+    border-radius: 4px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .advice-title,
+  .section-title,
+  .newsletter-title {
+    font-size: 2rem;
+  }
+
+  .card-content h3,
+  .pricing-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .card-content,
+  .testimonial-text {
+    padding: 10px;
+  }
+
+  .testimonial-text {
+    padding: 20px;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+}

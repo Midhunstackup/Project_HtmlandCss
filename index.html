@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet"/>
-  
+  <link rel="stylesheet" href="mediaquery.css" />
 
 </head>
 <body>
@@ -15,17 +15,26 @@
   <header>
     <div class="navbar container">
       <h2 class="logo">MedicaleEnrg</h2>
-      <nav class="nav-links">
-        <a href="#">Home</a>
-        <a href="#">Product</a>
-        <a href="#">Pricing</a>
-        <a href="#">Contact</a>
-      </nav>
-      <div class="nav-actions">
-        <a class="btn" href="#">Login</a>
-        <a class="btn primary" href="#">Join Us →</a>
-      </div>
+
+<!-- Hamburger Icon -->
+  <div class="hamburger" id="hamburger">
+    <i class="fas fa-bars"></i>
+  </div>
+
+  <!-- Navigation Links -->
+  <nav class="nav-links" id="nav-menu">
+    <a href="#">Home</a>
+    <a href="#">Product</a>
+    <a href="#">Pricing</a>
+    <a href="#">Contact</a>
+    <div class="nav-actions">
+      <a class="btn" href="#">Login</a>
+      <a class="btn primary" href="#">Join Us →</a>
     </div>
+  </nav>
+</div>
+
+      
   </header>
 
   <!-- Hero Section -->
@@ -43,7 +52,7 @@
 
       <div class="hero-visuals">
         <div class="hero-image">
-          <img src="./images/none.png" alt="Doctor and patient" class="main-img" />
+          <img src="./images/none.png" alt="Doctor and patient" class="main-img hide-on-mobile" />
         </div>
       </div>
   </section>
@@ -52,7 +61,7 @@
   <section id="department">
     <div class="container department-container">
       <div class="department-left">
-        <img src="./images/departmentpic.png" alt="Doctor" class="dept-img" />
+        <img src="./images/departmentpic.png" alt="Doctor" class="dept-img hide-on-mobile" />
       </div>
       <div class="department-right">
         <div class="section-line"></div>
@@ -70,22 +79,22 @@
     <div class="container companies-container">
       <div class="row">
         <div class="company-logo col-md-2">
-          <img src="./images/hooli logo.png" alt="Hooli" />
+          <img src="./images/hooli logo.png" alt="Hooli" class="hide-on-mobile" />
         </div>
         <div class="company-logo col-md-2">
-          <img src="./images/lyft logo.png" alt="Lyft" />
+          <img src="./images/lyft logo.png" alt="Lyft" class="hide-on-mobile"/>
         </div>
         <div class="company-logo col-md-2">
-          <img src="./images/Vector.png" alt="Leaf" />
+          <img src="./images/Vector.png" alt="Leaf" class="hide-on-mobile"/>
         </div>
         <div class="company-logo col-md-2">
-          <img src=".//images/stripe logo.png" alt="Stripe" />
+          <img src=".//images/stripe logo.png" alt="Stripe" class="hide-on-mobile"/>
         </div>
         <div class="company-logo col-md-2">
-          <img src="./images/aws logo.png" alt="AWS" />
+          <img src="./images/aws logo.png" alt="AWS" class="hide-on-mobile"/>
         </div>
         <div class="company-logo col-md-2">
-          <img src="./images/reddit logo.png" alt="Reddit" />
+          <img src="./images/reddit logo.png" alt="Reddit" class="hide-on-mobile"/>
         </div>
       </div>
     </div>
